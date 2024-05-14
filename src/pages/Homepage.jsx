@@ -181,7 +181,7 @@ export default function HomePage(){
             </section>
             <section className="col-span-7 relative">
                 <div className="overlay"></div>
-                <div className="flex justify-center items-center h-screen bg-fixed bg-cover bg-center" style={{backgroundImage: `url(${landingImage})`}}>
+                <div className="flex justify-center items-center h-screen bg-fixed bg-contain bg-center" style={{backgroundImage: `url(${landingImage})`}}>
                     <div className="w-3/4 absolute text-center md:left-60 lg:left-60">
                         <h3 className="text-white text-2xl font-semibold">Welcome</h3>
                         <div className="middle_text">

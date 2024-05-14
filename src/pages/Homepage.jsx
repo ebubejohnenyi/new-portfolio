@@ -181,7 +181,7 @@ export default function HomePage(){
             </section>
             <section className="col-span-7 relative">
                 <div className="overlay"></div>
-                <div className="flex justify-center items-center h-screen bg-fixed bg-contain bg-center" style={{backgroundImage: `url(${landingImage})`}}>
+                <div className="flex justify-center items-center h-screen bg-fixed bg-cover bg-center bg-no-repeat" style={{backgroundImage: `url(${landingImage})`}}>
                     <div className="w-3/4 absolute text-center md:left-60 lg:left-60">
                         <h3 className="text-white text-2xl font-semibold">Welcome</h3>
                         <div className="middle_text">
@@ -214,7 +214,7 @@ export default function HomePage(){
                 <section className="about_Me md:ml-56 lg:ml-56 mt-20">
                     <div className='flex justify-center'>
                         <div className="relative">
-                            <h2 className='sm:text-7xl md:text-9xl lg:text-9xl font-sans font-bold text-gray-300/45'>ABOUT ME</h2>
+                            <h2 className='sm:text-6xl md:text-9xl lg:text-9xl font-sans font-bold text-gray-300/45'>ABOUT ME</h2>
                             <div className="absolute top-0 left-0 right-0 bottom-0 sm:mt-5 md:mt-12 lg:mt-12">
                                 <h2 className="text-4xl font-bold text-center">Know Me More</h2>
                                 <div className="flex justify-center">
@@ -255,19 +255,19 @@ export default function HomePage(){
                         </div>
                         <div className='grid sm:grid-cols-2 justify-items-center md:grid-cols-4 lg:grid-cols-4 m-10'>
                             <div className="text-center border-r sm:border-b md:border-b-0 lg:border-b-0 pb-5 border-gray-300 sm:w-40 md:w-56 lg:w-56">
-                                <h1 className='num text-6xl font-mono text-gray-400' data-val={experienceValue}>0</h1>
+                                <h1 className='num text-6xl font-mono text-gray-400' data-val={experienceValue}>2</h1>
                                 <p className="aboutMe_text">Year Experience</p>
                             </div>
                             <div className="text-center sm:border-b md:border-b-0 lg:border-b-0 md:border-r pb-5 border-gray-300 sm:w-40 md:w-56 lg:w-56">
-                                <h1 className='num text-6xl font-mono text-gray-400' data-val={happyClient}>0</h1>
+                                <h1 className='num text-6xl font-mono text-gray-400' data-val={happyClient}>20</h1>
                                 <p className="aboutMe_text">Happy Clients</p>
                             </div>
                             <div className="text-center border-r pb-3 border-gray-300 sm:w-40 md:w-56 lg:w-56">
-                                <h1 className='num text-6xl font-mono text-gray-400' data-val={projectDone}>0</h1>
+                                <h1 className='num text-6xl font-mono text-gray-400' data-val={projectDone}>10+</h1>
                                 <p className="aboutMe_text">Project Done</p>
                             </div>
                             <div className="text-center pb-3 border-gray-300 sm:w-40 md:w-56 lg:w-56">
-                                <h1 className='num text-6xl font-mono text-gray-400' data-val={award}>0</h1>
+                                <h1 className='num text-6xl font-mono text-gray-400' data-val={award}>2</h1>
                                 <p className="aboutMe_text">Get Award</p>
                             </div>
                         </div>
@@ -406,7 +406,7 @@ export default function HomePage(){
                                         <p className="text-lg font-semithin text-gray-300">80%</p>
                                     </div>
                                     <div className="bg-gray-200 rounded-full">
-                                        <p className='bg-green-400 h-2 rounded-full mr-36'></p>
+                                        <p className='bg-green-400 h-2 rounded-full mr-10'></p>
                                     </div>
                                 </div>
                                 <div className="mt-5">
@@ -415,7 +415,7 @@ export default function HomePage(){
                                         <p className="text-lg font-semithin text-gray-300">95%</p>
                                     </div>
                                     <div className="bg-gray-200 rounded-full">
-                                        <p className='bg-green-400 h-2 rounded-full mr-16'></p>
+                                        <p className='bg-green-400 h-2 rounded-full mr-5'></p>
                                     </div>
                                 </div>
                                 <div className="mt-5">
@@ -424,7 +424,7 @@ export default function HomePage(){
                                         <p className="text-lg font-semithin text-gray-300">80%</p>
                                     </div>
                                     <div className="bg-gray-200 rounded-full">
-                                        <p className='bg-green-400 h-2 rounded-full mr-36'></p>
+                                        <p className='bg-green-400 h-2 rounded-full mr-10'></p>
                                     </div>
                                 </div>
                                 <div className="mt-5">
@@ -433,7 +433,7 @@ export default function HomePage(){
                                         <p className="text-lg font-semithin text-gray-300">90%</p>
                                     </div>
                                     <div className="bg-gray-200 rounded-full">
-                                        <p className='bg-green-400 h-2 rounded-full mr-28'></p>
+                                        <p className='bg-green-400 h-2 rounded-full mr-10'></p>
                                     </div>
                                 </div>
                             </div>
@@ -446,7 +446,7 @@ export default function HomePage(){
                                             <p className="text-lg font-semithin text-gray-300">90%</p>
                                         </div>
                                         <div className="bg-gray-200 rounded-full">
-                                            <p className='bg-green-400 h-2 rounded-full mr-28'></p>
+                                            <p className='bg-green-400 h-2 rounded-full mr-5'></p>
                                         </div>
                                     </div>
                                     <div className="mt-5">
@@ -455,7 +455,7 @@ export default function HomePage(){
                                             <p className="text-lg font-semithin text-gray-300">80%</p>
                                         </div>
                                         <div className="bg-gray-200 rounded-full">
-                                            <p className='bg-green-400 h-2 rounded-full mr-44'></p>
+                                            <p className='bg-green-400 h-2 rounded-full mr-10'></p>
                                         </div>
                                     </div>
                                     <div className="mt-5">
@@ -464,7 +464,7 @@ export default function HomePage(){
                                             <p className="text-lg font-semithin text-gray-300">80%</p>
                                         </div>
                                         <div className="bg-gray-200 rounded-full">
-                                            <p className='bg-green-400 h-2 rounded-full mr-36'></p>
+                                            <p className='bg-green-400 h-2 rounded-full mr-10'></p>
                                         </div>
                                     </div>
                                     <div className="mt-5">
@@ -473,7 +473,7 @@ export default function HomePage(){
                                             <p className="text-lg font-semithin text-gray-300">64%</p>
                                         </div>
                                         <div className="bg-gray-200 rounded-full">
-                                            <p className='bg-green-400 h-2 rounded-full mr-64'></p>
+                                            <p className='bg-green-400 h-2 rounded-full mr-20'></p>
                                         </div>
                                     </div>
                                     <div className="mt-5">
@@ -482,7 +482,7 @@ export default function HomePage(){
                                             <p className="text-lg font-semithin text-gray-300">64%</p>
                                         </div>
                                         <div className="bg-gray-200 rounded-full">
-                                            <p className='bg-green-400 h-2 rounded-full mr-64'></p>
+                                            <p className='bg-green-400 h-2 rounded-full mr-20'></p>
                                         </div>
                                     </div>
                                 </div>
@@ -499,7 +499,7 @@ export default function HomePage(){
                 <section className="mywork md:pb-10 md:ml-56 lg:ml-56 mt-20 bg-gray-100/45 pt-12 pb-12">
                     <div className='flex justify-center'>
                         <div className="relative">
-                            <h2 className='sm:text-7xl md:text-9xl lg:text-9xl font-sans font-bold text-gray-300/45'>PORTFOLIO</h2>
+                            <h2 className='sm:text-6xl md:text-9xl lg:text-9xl font-sans font-bold text-gray-300/45'>PORTFOLIO</h2>
                             <div className="absolute top-0 left-0 right-0 bottom-0 sm:mt-5 md:mt-12 lg:mt-12">
                                 <h2 className="text-4xl font-bold text-center">Projects</h2>
                                 <div className="flex justify-center">
@@ -537,7 +537,7 @@ export default function HomePage(){
                                     </div>
                                 </div>
                                 <div className="mt-4">
-                                    <p className="text-lg md:w-fit lg:w-fit">"Before John embarked on his Software Engineer career, he has always been a goal getter attentive to details and his known for his problem solving skills. He brought his expectional skills to the Hospitality field and made name for him self."</p>
+                                    <p className="text-lg w-fit">"Before John embarked on his Software Engineer career, he has always been a goal getter attentive to details and his known for his problem solving skills. He brought his expectional skills to the Hospitality field and made name for him self."</p>
                                 </div>
                                 <div className="flex mt-5">
                                     <img className="w-4 m-1" src={stars} alt="Stars"></img>
@@ -558,7 +558,7 @@ export default function HomePage(){
                                     </div>
                                 </div>
                                 <div className="mt-4">
-                                    <p className="text-lg md:w-fit lg:w-fit">"John is a talented full-stack developer who consistently delivers high-quality work. He have a deep understanding of modern web technologies and are adept at turning complex requirements into elegant solutions. His commitment to meeting deadlines and his  collaborative approach make him a valuable asset to any development team"</p>
+                                    <p className="text-lg w-fit">"John is a talented full-stack developer who consistently delivers high-quality work. He have a deep understanding of modern web technologies and are adept at turning complex requirements into elegant solutions. His commitment to meeting deadlines and his  collaborative approach make him a valuable asset to any development team"</p>
                                 </div>
                                 <div className="flex mt-5">
                                     <img className="w-4 m-1" src={stars} alt="Stars"></img>
@@ -578,7 +578,7 @@ export default function HomePage(){
                                     </div>
                                 </div>
                                 <div className="mt-4">
-                                    <p className="text-lg md:w-fit lg:w-fit">"I had the pleasure of collaborating with John on a challenging web development project, and I couldn't be happier with the results. His ability to juggle multiple tasks while maintaining a high level of attention to detail was impressive. He is not only skilled technically but also great communicators, always keeping stakeholders informed and involved throughout the process"</p>
+                                    <p className="text-lg w-fit">"I had the pleasure of collaborating with John on a challenging web development project, and I couldn't be happier with the results. His ability to juggle multiple tasks while maintaining a high level of attention to detail was impressive. He is not only skilled technically but also great communicators, always keeping stakeholders informed and involved throughout the process"</p>
                                 </div>
                                 <div className="flex mt-5">
                                     <img className="w-4 m-1" src={stars} alt="Stars"></img>
@@ -598,7 +598,7 @@ export default function HomePage(){
                                     </div>
                                 </div>
                                 <div className="mt-4">
-                                    <p className="text-lg md:w-fit lg:w-fit">"I highly recommend John for any web development project. His expertise in full-stack development, combined with his professionalism and work ethic, make him a valuable partner. He consistently delivered results that exceeded my expectations, and his proactive approach to problem-solving helped us overcome obstacles and achieve our project goals. It was a pleasure working with Ebube John Enyi, and I would not hesitate to engage his services again."</p>
+                                    <p className="text-lg w-fit">"I highly recommend John for any web development project. His expertise in full-stack development, combined with his professionalism and work ethic, make him a valuable partner. He consistently delivered results that exceeded my expectations, and his proactive approach to problem-solving helped us overcome obstacles and achieve our project goals. It was a pleasure working with Ebube John Enyi, and I would not hesitate to engage his services again."</p>
                                 </div>
                                 <div className="flex mt-5">
                                     <img className="w-4 m-1" src={stars} alt="Stars"></img>
@@ -618,7 +618,7 @@ export default function HomePage(){
                                     </div>
                                 </div>
                                 <div className="mt-4">
-                                    <p className="text-lg md:w-fit lg:w-fit">"Working with Ebube John Enyi was a seamless experience from start to finish. He demonstrated a strong grasp of both front-end and back-end development concepts and were able to quickly adapt to changing requirements. He dedication to writing clean, maintainable code and his willingness to go the extra mile to ensure client satisfaction set him apart. I look forward to collaborating with john again in the future."</p>
+                                    <p className="text-lg w-fit">"Working with Ebube John Enyi was a seamless experience from start to finish. He demonstrated a strong grasp of both front-end and back-end development concepts and were able to quickly adapt to changing requirements. He dedication to writing clean, maintainable code and his willingness to go the extra mile to ensure client satisfaction set him apart. I look forward to collaborating with john again in the future."</p>
                                 </div>
                                 <div className="flex mt-5">
                                     <img className="w-4 m-1" src={stars} alt="Stars"></img>
